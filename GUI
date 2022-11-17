@@ -1,0 +1,9 @@
+from tkinter import *  
+parent = Tk()  
+parent.geometry("500x300")
+name = Label(parent,text = "Name",fg="Blue").place(x = 30,y = 50)  
+e1 = Entry(parent).place(x =150,y = 50)  
+password = Label(parent,text = "Password",fg="Blue").place(x = 30,y = 100) 
+e2 = Entry(parent).place(x = 150,y = 100)
+submit = Button(parent, text = "Submit",fg="Blue").place(x = 30,y = 150) 
+parent.mainloop() 
